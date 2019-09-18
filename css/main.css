@@ -17,10 +17,16 @@ ul {
     padding: 0;
 }
 
-td {
-    padding-left: 20px;
-    padding-right: 20px;
+tr{ 
     text-align: left;
+}
+
+td {
+    display: flex;
+    justify-content: left;
+    max-width: 200px;
+    text-align: left;
+    flex-wrap: wrap;
 }
 
 .container {
